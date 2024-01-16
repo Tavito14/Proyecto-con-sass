@@ -1,0 +1,21 @@
+.imgLogo{
+    width: 150px;
+}
+
+.encabezado {
+    background-color: #fff;
+    
+}
+
+.menuNav a {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    border-left: 1px solid #24a735;
+    border-right: 1px solid #22692c;
+    padding: 0;
+}
+
+.menuNav a:hover {
+    background-color: #335735;
+    color: #fafafa;
+}
