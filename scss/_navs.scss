@@ -14,7 +14,7 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background-color: seagreen;
+  background-color: $color-fondo;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +23,7 @@ body {
 
 .logo {
   font-size: 32px;
-  color: white;
+  color: $color;
   text-decoration: none;
   font-weight: 700;
 }
@@ -31,7 +31,7 @@ body {
 .navbar a {
   position: relative;
   font-size: 18px;
-  color: #fff;
+  color: $color;
   font-weight: 300;
   text-decoration: none;
   margin-left: 40px;
@@ -43,7 +43,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #fff;
+    background: $color;
     transition: .3s;
   }
 

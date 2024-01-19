@@ -3,7 +3,7 @@
 }
 
 .encabezado {
-    background-color: #fff;
+    background-color: $color-fondo-encabezado;
     
 }
 
@@ -16,6 +16,6 @@
 }
 
 .menuNav a:hover {
-    background-color: #335735;
+    background-color: $color-fondo;
     color: #fafafa;
 }

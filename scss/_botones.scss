@@ -1,10 +1,10 @@
 .btncafecitos {
-    background-color: #2b7a43;
-    color: #fafafa;
+    background-color: $color-botones;
+    color: $color;
   
     &:hover {
-      background-color: #21612c;
-      color: #fafafa;
+      background-color: $color-botones;
+      color: $color;
     }
   }
   
@@ -19,7 +19,7 @@
   .nombre {
     margin: auto;
     padding: auto;
-    background-color: #21612c;
+    background-color: $color-fondo;
   }
   
   .contacto {
