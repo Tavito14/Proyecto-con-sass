@@ -2,7 +2,8 @@
     background-color: $color-fondo;
     color: #fafafa;
     text-align: center;
-    text-transform: uppercase;
+    // text-transform: uppercase;
+    @include anclas;
     font-weight: bold;
     padding: 16px;
   
